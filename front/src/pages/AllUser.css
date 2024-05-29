@@ -1,0 +1,25 @@
+.allUserPage{
+    position: relative;
+}
+
+.changeRoleModal{
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 120px;
+    z-index: 3;
+    color: black;
+}
+
+.changeRoleModal form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hide{
+    display: none;
+}
